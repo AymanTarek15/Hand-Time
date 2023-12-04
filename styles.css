@@ -1,0 +1,430 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+}
+
+/* Nav Bar */
+
+nav div li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.6vh 1.8vw;
+    border-radius: 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    /* padding: 0.8vh 0.8vw; */
+}
+
+nav li a:hover {
+    background-color: #8019c8;
+    color: white;
+}
+
+nav {
+    /* position: sticky; */
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 0.5px solid #e2e2e2;
+    height: 8vh;
+    padding: 0.8vh 0.8vw;
+}
+
+nav div ul {
+    list-style: none;
+    display: flex;
+    /* gap: 5%; */
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    right: 10%;
+}
+
+.nav-items {
+    width: 50%;
+}
+
+.symbols {
+    display: flex;
+    gap: 50%;
+    padding-right: 1%;
+    position: relative;
+    right: 18rem;
+    bottom: 3.9rem;
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Header Image */
+
+.image-section {
+    background-image: url(handtime-html/images/slider-bg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.typing-on-image {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5%;
+    height: 100%;
+    width: 40%;
+    position: relative;
+    bottom: 3%;
+    right: 8%;
+}
+
+.typing-on-image h1,
+.typing-on-image p {
+    margin: 0;
+    color: white;
+
+}
+
+.typing-on-image h1 {
+    font-size: 36px;
+}
+
+.image-buttons a,
+.butn {
+    color: white;
+    text-decoration: none;
+    width: 8.4vw;
+    height: 4.5vh;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.image-buttons {
+    display: flex;
+    gap: 4%;
+}
+
+#first-button {
+    background-color: #19c880;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-button {
+    background-color: #8019c8;
+
+}
+
+#home-link {
+    background-color: #8019c8;
+    color: white;
+}
+
+/* Section 2 services */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 2%;
+}
+
+.service {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.image-feature {
+    display: flex;
+    justify-content: center;
+}
+
+.writing-feature {
+    text-align: center;
+}
+
+.writing-feature p {
+    color: black;
+}
+
+#about {
+    display: flex;
+    padding: 7% 3%;
+    gap: 2%;
+}
+
+#image-1 {
+    position: relative;
+    bottom: 20%;
+}
+
+#image-2 {
+    position: relative;
+    top: 10%;
+}
+
+#about-shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    width: 70vw;
+}
+
+#about-shop p {
+    color: black;
+}
+
+#about-shop a {
+    text-decoration: none;
+    padding: 0.8vh 2vw;
+    border-radius: 5%;
+    background-color: #8019c8;
+    color: white;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+/* Section 3 Products */
+
+#top-sales {
+    background-color: #f8f8f8;
+}
+
+#top-sales h1 {
+    padding: 1%;
+    background-color: #19c880;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.sale-box {
+    background-color: white;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sale-data {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    justify-content: center;
+    height: 30%;
+    width: 18vw;
+}
+
+.right-box {
+    text-align: center;
+}
+
+.left-box {
+    text-align: center;
+}
+
+.add-cart {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 9%;
+    padding-bottom: 2%;
+}
+
+.add-cart a {
+    text-decoration: none;
+    padding: 1%;
+    background-color: #8019c8;
+    color: white;
+}
+
+/* Contact Us */
+
+#contact-us {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    margin: 10% 20%;
+}
+
+#contact-us a {
+    background-color: #8019c8;
+}
+
+#contact-us form {
+    display: flex;
+    flex-flow: column;
+    gap: 3vh;
+
+}
+
+#contact-us input {
+    height: 5vh;
+    width: 25vw;
+}
+
+#contact-us div {
+    width: 50%;
+}
+
+iframe {
+    margin-top: 10%;
+    width: 30vw;
+    height: 40vh;
+}
+
+/* Testimonial */
+
+
+
+#testimonial h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 4rem 0;
+}
+
+#testimonial h2 {
+    margin: 0;
+    color: #8019c8;
+}
+
+#testimonial #space {
+    width: 30vw;
+    height: 20vh;
+}
+
+.btn:hover,
+.butn:hover {
+    filter: brightness(0.5);
+}
+
+.testimonial-parent {
+    display: flex;
+    width: 100vw;
+}
+
+.testimonial-text {
+    width: 40%;
+    border: 0.1px solid gray;
+    padding: 4rem;
+    height: 7rem;
+}
+
+.testimonial-text h3 {
+    color: #19c880;
+    margin: 0;
+}
+
+#testimonial {
+    margin-bottom: 10rem;
+}
+
+#testimonial img {
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    border: 0.5rem solid #19c880;
+    position: relative;
+    bottom: 7rem;
+    right: 7rem;
+}
+
+.fa-solid {
+    position: relative;
+    left: 17rem;
+    top: 4rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0f1521;
+    padding: 3rem 0rem;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+
+
+}
+
+footer hr {
+    width: 40%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20%;
+    color: white;
+}
+
+footer i {
+    position: relative;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.fa-location-dot {
+    position: absolute;
+    top: 343rem;
+    left: 25.9rem;
+}
+
+.fa-mobile-screen-button {
+    position: absolute;
+    top: 345rem;
+    left: 25.9rem;
+}
+
+.footer-box {
+    width: 10rem;
+}
+
+.instagram-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.footer-image {
+    width: 2rem;
+    background-color: white;
+    padding: 0.5rem;
+
+}
+
+footer a.btn {
+    background-color: #8019c8;
+    margin-top: 1rem;
+    width: 8rem;
+}
